@@ -5,7 +5,7 @@ def parar():
 
 def capturar_temperatura():
     try:
-        temperatura = float(input("Por favor digite la temperatura: "))
+        temperatura = float(input("Digite la temperatura: "))
         return temperatura
     except ValueError:
         print("Error: debe ingresar un número válido.")
